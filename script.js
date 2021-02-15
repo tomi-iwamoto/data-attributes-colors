@@ -22,3 +22,15 @@ box.forEach(function(target) {
 
 })
 
+
+clearButton.addEventListener('click', function(target) {
+
+    //when I click the clear button it will erase the text inside of the box
+    box.forEach(function(target) {
+
+        target.innerHTML = ' ';
+        
+    })
+    
+
+})
