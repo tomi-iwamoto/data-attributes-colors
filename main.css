@@ -1,0 +1,137 @@
+body {
+    width: 100%;
+    height:100%;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.box {
+    width: 100px;
+    height:100px;
+}
+
+#red {
+    background-color:rgb(255, 75, 75);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#lightblue {
+    background-color:lightblue;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#green {
+    background-color:rgb(31, 179, 117);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#pink {
+    background-color:rgb(251, 207, 218);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#yellow {
+    background-color:rgb(255, 241, 43);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#beige {
+    background-color:rgb(255, 231, 215);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#darkgreen {
+    background-color:rgb(24, 121, 116);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#orange {
+    background-color:orange;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#brown {
+    background-color:rgb(116, 96, 50);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#lightgreen {
+    background-color:rgb(116, 216, 174);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#magenta {
+    background-color:rgb(255, 14, 183);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#darkblue {
+    background-color:rgb(27, 41, 119);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
