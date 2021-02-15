@@ -16,6 +16,7 @@ box.forEach(function(target) {
     //This event listener will display the text of each box 
     target.addEventListener('click', function() {
 
+        //The innerHTML of the target is going to be its data attribute
         target.innerHTML = target.dataset.text;
 
     })
@@ -23,14 +24,14 @@ box.forEach(function(target) {
 })
 
 
-clearButton.addEventListener('click', function(target) {
+//when I click the clear button it will erase the texts inside of the boxes
+clearButton.addEventListener('click', function() {
 
-    //when I click the clear button it will erase the text inside of the box
+    //The forEach method will cycle through each of the elements in the boxArray. 
     box.forEach(function(target) {
 
         target.innerHTML = ' ';
-        
+
     })
-    
 
 })

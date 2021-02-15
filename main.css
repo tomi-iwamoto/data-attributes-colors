@@ -7,12 +7,18 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(29, 143, 29);
+    margin-top: 100px;
+}
+
 .container {
     display:flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .box {
@@ -151,4 +157,8 @@ button {
     background:rgb(230, 207, 0);
     border-radius: 5px;
     color:green;
+}
+
+button:hover {
+    cursor: pointer;
 }
